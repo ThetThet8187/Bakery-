@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loafing round</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        body{
+    background-color: #EDE8DC;
+    margin: 0;
+    
+}
+.btn{
+    border: 2px solid #EDE8DC;
+    background-color: #EDE8DC;
+    border-radius: 15px;
+    /* padding: 8px 15px; */
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 600px;
+}
+.bgimg{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./images/nafinia-putra-Kwdp-0pok-I-unsplash.jpg");
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bgimg h2{
+    margin: 0;
+    text-align: center;
+    color: #EDE8DC;
+    
+}
+.bgimg p{
+    text-align: center;
+}
+.cafe{
+    color:#5a4e34;
+}
+ .abt{
+    display: flex;
+    flex-direction: column;
+ }
+ .title .welcome{
+    color: #5a4e34;
+    text-align: center;
+ }
+ .abt p{
+    margin-left: 3px;
+ }
+ .abt .side{
+    margin-left: 5px;
+    width: 50%;
+ }
+ .side2 img{
+    height: 350px;
+    margin-right: 0;
+ }
+ .side12{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+ }
+ .list{
+    list-style-type: none;
+ }
+ .list li::before{
+    content: "☕";
+ }
+ .mainbox{
+    width: 100%;
+ }
+
+ .bs{
+    margin-top: 40px;
+ }
+ .cafe{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #42322e;
+ }
+ .ratingbox{
+    border: 2px solid #E7CCCC;
+    width: 400px;
+    height: 300px;
+    margin-left: 20px;
+    border-radius: 15px;
+ }
+ .ratingbox p{
+    margin-top: 5px;
+    margin-left: 5px;
+ }
+
+ progress{
+    width: 250px;
+    margin-left: 5px;
+    margin-top: 5px;
+ }
+
+ .star5, .star4, .star3, .star2, .star1{
+    display: flex;
+ }
+
+
+ .ratings p{
+    color: #42322e;
+ }
+ .reviews span img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+ }
+ .reviews span{
+    display:flex;
+    align-items: center;
+ }
+ .nnr{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+ }
+ span .r{
+    margin-top: 0;
+ }
+ .rnr{
+    display: flex;
+ }
+ .reviews{
+    margin-left: 15px;
+ }
+ footer{
+    margin-left: 15px;
+    margin-right: 15px;
+ }
+ footer ul li{
+    text-decoration: underline;
+ }
+ footer ul{
+    list-style-type: none;
+ }
+
+ footer p{
+    color: #42322e;
+ }
+ @media screen and (max-width: 820px){
+    .btn{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width: 500px){
+    body{
+        overflow-x: hidden;
+    }
+    .side12{
+        display: block;
+    }
+    .abt .side{
+        width: 100%;
+    }
+    .rnr{
+        display: block;
+    }
+    .ratingbox{
+        margin-left: 10%;
+    }
+}
+ </style>
+</head>
+<body>
+    <audio src="audio/christmas-lofi-music-269177.mp3" autoplay hidden></audio>
+    <nav>
+        <a href="loafinground.html"><img src="images/loafing round-2.png" alt=""></a>
+    <ul>
+        <li><a href="#abtus">ABOUT US</a></li>
+        <li><a href="#bestseller">BEST SELLERS</a></li>
+        <li><a href="./shopall.html">SHOP ALL</a></li>
+    </ul>
+    <div class="si">
+        <div class="btn">
+            <a href="signin.html">sign in</a>
+        </div>
+    </div>
+</nav>
+<div class="bgimg">
+    <h2>welcome to loafing round</h2>
+    <p class="cafe">we, loafinground.digital team, warmly welcome you into our website. founded in 1998, we strive to bake the best pastries in town which aligns with all tastes. 
+        thank you so much for visiting our website, and we hope you the best of shopping!</p>
+</div>
+<section class="abt" id="abtus">
+    <div class="title">
+        <h3 class="welcome">welcome to loafinground.tm</h3>
+    </div>
+    <div class="side12">
+    <div class="side">
+    <p>We believe in creating a cozy space where delicious pastries meet productive vibes. Whether you're here to sip a latte, finish that project, or simply enjoy a moment of peace, we’ve got you covered.
+        Since our founding in 1998, we’ve been dedicated to crafting pastries that bring a smile to every face. At loafinground.tm, we combine the art of baking with a warm ambiance perfect for both leisure and productivity. Think buttery croissants, decadent cakes, and brews that’ll keep you inspired all day long.
+        Why choose us?
+    <ul class="list">
+        <li>Freshly Baked Every Day: Our pastries are made with love and the finest ingredients.
+        </li>
+        <li>Study-Friendly Environment: Enjoy free Wi-Fi, cozy seating, and plenty of outlets to keep you powered up.</li>
+        <li>Community-Focused: We’re a hub for students, creatives, and professionals alike.</li>
+    </ul>
+    </p>
+</div>
+<div class="side2">
+<img src="./images/cafe-coffee-design-tasty.jpg" alt="">
+</div>
+</div>
+</section>
+<section id="bestseller">
+    <div class="title">
+        <h3 class="welcome bs">
+            take a look at some of our best selling items this week!
+        </h3>
+    </div>
+    <div class="mainbox">
+        <div class="r1">
+        <div class="box b1">
+            <img src="./images/sandwich.jpg" alt="cream sandwich">
+            <p>cream sandwich with kiwi ౨ৎ</p>
+            <p>$15</p>
+            <a href="./cswg.html" class="mrg">see more 𓈒⟡₊⋆∘</a>
+        </div>
+        <div class="box b2">
+            <img src="./images/cookies.jpg" alt="pink ribbon cookie">
+            <p>signature ribbon cookie ౨ৎ</p>
+            <p>$20</p>
+            <a href="./src.html" class="mrg">see more 𓈒⟡₊⋆∘</a>
+        </div>
+        <div class="box b3">
+            <img src="./images/🎀.jpg" alt="pink ribbon cake">
+            <p>signature ribbon cake ౨ৎ</p>
+            <p>$24</p>
+            <a href="./srck.html" class="mrg">see more 𓈒⟡₊⋆∘</a>
+        </div>
+        <div class="box b4">
+            <img src="./images/♡.jpg" alt="miffy buns with stuffed strawberry cream">
+            <p>buns with strawberry cream ౨ৎ</p>
+            <p>$40</p>
+            <a href="./bwsc.html" class="mrg">see more 𓈒⟡₊⋆∘</a>
+        </div>
+    </div>
+    <div class="r1">
+        <div class="box b1">
+            <img src="./images/Unknown-2.jpg" alt="mochi stuffed macaroons">
+            <p>mochi stuffed macaroons ౨ৎ</p>
+            <p>$17</p>
+            <a href="./msm.html" class="mrg">see more 𓈒⟡₊⋆∘</a>
+        </div>
+        <div class="box b2">
+            <img src="./images/Unknown-3.jpg" alt="pink macaroons">
+            <p> pink and whipped macaroons ౨ৎ</p>
+            <p>$15</p>
+            <a href="./pnwm.html" class="mrg">see more 𓈒⟡₊⋆∘</a>
+        </div>
+        <div class="box b3">
+            <img src="./images/Unknown-4.jpg" alt="pink sugar cookies">
+            <p>pink sugar cookies with pearl ౨ৎ</p>
+            <p>$20</p>
+            <a href="./pscwp.html" class="mrg">see more 𓈒⟡₊⋆∘</a>
+        </div>
+        <div class="box b4">
+            <img src="./images/Unknown-5.jpg" alt="white chocolate and strawberry">
+            <p>strawberry white chocolate ౨ৎ</p>
+            <p>$15</p>
+            <a href="./swc.html" class="mrg">see more 𓈒⟡₊⋆∘</a>
+        </div>
+    </div>
+    </div>
+</section>
+<section>
+<div class="title">
+    <h3 class="welcome bs">
+        take a glance at some reviews!
+    </h3>
+</div>
+<div class="rnr">
+<div class="ratingbox">
+<p style="color: #E7CCCC; font-size: 30px;" class="rating">★ ★ ★ ★ ☆</p>
+<div class="ratings">
+<div class="star5">
+    <p>5 stars: </p>
+    <progress value="40" max="100"></progress>
+</div>
+<div class="star4">
+    <p>4 stars:</p>
+    <progress value="30" max="100"></progress>
+</div>
+<div class="star3">
+    <p>3 stars:</p>
+    <progress value="15" max="100"></progress>
+</div>
+<div class="star2">
+    <p>2 stars:</p>
+    <progress value="3" max="100"></progress>
+</div>
+<div class="star1">
+    <p>1 stars:</p>
+    <progress value="2" max="100"></progress>
+</div>
+</div>
+</div>
+<div class="reviews">
+<span>
+    <img src="./images/korilakkuma glasses 🎀 (feel free to use!).jpg" alt="">
+    <div class="nnr">
+    <p>sophia</p>
+    <p class="r">these cookies made me have intense diaherra for days. </p>
+</div>
+</span>
+<span>
+    <img src="./images/Unknown-6.jpg" alt="">
+    <div class="nnr">
+    <p>layla 😝</p>
+    <p class="r">cookies so good they made me gain 5 kilos</p>
+</div>
+</span>
+<span>
+    <img src="./images/girliepop.jpg" alt="">
+    <div class="nnr">
+
+    
+    <p>mei</p>
+    <p class="r">the ribbon cake was so buttery and good!! def recommend</p>
+</div>
+</span>
+</div>
+</div>
+</section>
+<hr style="color: #E7CCCC; margin-top: 15px;">
+<footer>
+    <p>founded in 1998, our brand emphasizes with the support of local brands, and have made it our duty to donate to families in need of financial support, local brands in need of financial support as well as donations to rescue shelters for animals once every month. we donate 20% of our earnings to ensure a better, more comfortable life to many others.</p>
+    <p>our links</p>
+    <ul>
+        <li><a href="signin.html">sign in</a></li>
+        <li><a href="#abtus">about us</a></li>
+        <li><a href="#bestseller">our bestsellers</a></li>
+        <li><a href="./shopall.html">shop all</a></li>
+    </ul>
+</footer>
+</body>
+</html>

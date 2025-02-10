@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sign in</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+      body {
+        background-color: #ede8dc;
+      }
+      fieldset {
+        border-color: #e7cccc;
+        background-color: #e7cccc;
+        border-radius: 15px;
+        width: 50%;
+        height: 350px;
+        margin: auto;
+        margin-top: 200px;
+        /* margin-right: 50%; */
+      }
+      fieldset form input {
+        border-radius: 5px;
+        border: 0;
+      }
+      fieldset form div {
+        margin-bottom: 2px;
+      }
+      fieldset form .btngp input[type="submit"],
+      input[type="reset"] {
+        border: 2px solid #ede8dc;
+        background-color: #ede8dc;
+        border-radius: 15px;
+        padding: 8px 15px;
+        margin-right: 20px;
+        margin-top: 30px;
+      }
+      fieldset form .btngp {
+        display: flex;
+      }
+      fieldset form table {
+        height: 80%;
+      }
+
+      fieldset form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      fieldset form p a{
+        text-decoration: none;
+        color: #b78383;
+      }
+      fieldset form p{
+        transition: all 1.5s;
+        margin-top: 10px;
+      }
+
+      fieldset form p:hover{
+        transform: scale(1.2);
+      }
+      fieldset form input{
+        width: 100px;
+        padding: 5px 10px;
+        background-color: #ede8dc;
+      }
+      @media screen and (max-width: 820px) {
+        .btn{
+          margin-left: 220px;
+        }
+        fieldset{
+          height: 350px;
+        }
+      }
+      @media screen and (max-width: 500px){
+        fieldset{
+          width: 80%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="loafinground.html"><img src="images/loafing round-2.png" alt=""></a>
+  <ul>
+    <li><a href="loafinground.html">HOME</a></li>
+      <li><a href="#">SHOP ALL</a></li>
+  </ul>
+  <div class="si">
+      <div class="btn">
+          <a href="./signin.html">sign in</a>
+      </div>
+  </div>
+  </nav>
+    <fieldset>
+      <form action="">
+        <h1>sign up ⋆ ˚｡⋆୨୧˚</h1>
+        <table>
+          <tr>
+            <td><label for="un">name:</label></td>
+            <td><input type="text" id="un" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="pw">email</label></td>
+            <td><input type="email" id="pw" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="birthday">verify your birthday!</label></td>
+            <td><input type="date" id="birthday" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="password">make a password!</label></td>
+            <td><input type="password" id="password" /></td>
+          </tr>
+        
+        </table>
+        <div class="btngp">
+          <input type="submit" value="submit ୨୧" />
+          <input type="reset" value="reset" />
+        </div>
+        <p><a href="./signin.html">sign in?</a></p>
+      </form>
+    </fieldset>
+  </body>
+</html>

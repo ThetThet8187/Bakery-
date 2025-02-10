@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+*{
+    font-family: "Funnel Display", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    width: 100px;
+    text-decoration: none;
+    margin-left: 3em;
+    transition: all 0.5s;
+}
+nav ul li:hover{
+    transform: scale(1.2);
+}
+a{
+    text-decoration: none;
+    color:#5a4e34;
+    text-transform: lowercase;
+}
+nav{
+    border: 2px solid #E7CCCC;
+    background-color: #E7CCCC;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    padding: 0 20px;
+    margin: 0;
+    display: flex;
+}
+nav img{
+    margin-top: 0;
+    margin-top: 0;
+    width: 80px;
+    height: 10vh;}
+    .si{
+        display: flex;
+    }
+    .btn{
+        border: 2px solid #EDE8DC;
+        background-color: #EDE8DC;
+        border-radius: 15px;
+        /* padding: 8px 15px; */
+        width: 100px;
+        height: 40px;
+        text-align: center;
+        line-height: 30px;
+        margin-left: 600px;
+    }
+
+    .r1{
+        display: flex;
+        justify-content: space-between;
+     }
+     .box{
+        width: 20%;
+        height: 350px;
+        border: 2px solid #E7CCCC;
+        border-radius: 15px;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-right: 10px;
+     }
+     .box img{
+        width: 100%;
+        height: 60%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+     }
+     .box p{
+        text-align: center;
+        margin-top: 1px;
+        margin-bottom: 2px;
+     }
+     .mrg{
+        margin-left: 0;
+        background-color: #E7CCCC;
+        width: 125px;
+        height: 40px;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 15px;
+        display: inline-block;
+        margin-left: 25%;
+        margin-top: 30px;
+     }
+     @media screen and (max-width: 820px){
+        .box .p:nth-child(2){
+            font-size: 12px;
+        }
+        .box{
+            width: 25%;
+            height: 300px;
+        }
+        .mrg{
+            height: 25px;
+            width: 150px;
+            margin-top: 7px;
+            margin-left: 5px;
+        }
+     }
+
+     @media screen and (max-width: 500px){
+        nav{
+           display: block;
+           height: 30vh;
+           width: 100%;
+        }
+
+        nav ul li{
+            margin-left: 1em;
+        }
+        nav ul li{
+            margin-right: 20px;
+        }
+        .r1{
+            display: inline-block;
+            width: 80%;
+        }
+        .box{
+            width: 100%;
+            height: 450px;
+            margin-left: 13%;
+        }
+        .mrg{
+            height: 50px;
+            margin-left: 30%;
+            line-height: 50px;
+        }
+
+
+     }
